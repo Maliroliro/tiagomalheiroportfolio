@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- menu de navegacao com botoes ligados aos ids das secoes -->
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- secao sobre -->
+    <section id="sobre">
+        <h1 class="titulo">Tiago Malheiro de Santana</h1>
+
+        <p class="descricao">
+          Sou apaixonado por tecnologia e gosto de aprender na prática, tanto software quanto hardware.
+          Criando páginas web, desenvolvendo jogos, produzindo conteúdo em vídeo e montando computadores.
+        </p>
+
+         <p class="descricao">
+          No tempo livre, gosto principalmente de videogames (especialmente RPGs) e também de aprender instrumentos musicais.
+        </p>
+
+         <p class="descricao">
+          Busco constantemente evoluir minhas habilidades e aplicar o que aprendo em novos projetos.
+        </p>
+</section>
+
+    <!-- secao formacao -->
+    <section id="formacao">
+        <h2 class="titulo">Formação</h2>
+        <p class="descricao"> Curso de Informática - Prepara Cursos Profissionalizantes</p>
+        <p class="descricao"> Análise e Desenvolvimento de Sistemas - Uninter - Em progresso</p>
+        <p class="descricao"> Inglês Avançado - Listening, Writing, Reading and Speaking</p>
+    </section>
+
+    <!-- secao portfolio -->
+    <section id="portfolio">
+  <h2 class="titulo">Portfólio</h2>
+
+  <div class="projetos">
+
+    <!-- projeto 1 -->
+    <div class="projeto">
+      <h3>Site Portfólio</h3>
+      <p>Site pessoal desenvolvido com HTML, CSS e JavaScript com navegação entre seções e formulário validado.</p>
+      <a class="botalink" target="_blank">Ver projeto</a>
+    </div>
+
+    <!-- projeto 2 -->
+    <div class="projeto">
+      <h3>App de Bem-Estar</h3>
+      <p>Aplicação em desenvolvimento com foco em auxilio emocional e controle de ansiedade.</p>
+      <a class="botalink" href="https://maliroliro.github.io/Begood/" target="_blank">Ver projeto</a>
+    </div>
+
+    <!-- projeto 3 -->
+    <div class="projeto">
+      <h3>Cofrinho em Java</h3>
+      <p>Aplicação em Java com interface via terminal onde se pode adicionar, remover, conferir e converter várias moedas.</p>
+      <a class="botalink" href="https://github.com/Maliroliro/Projeto-Cofrinho" target="_blank">Ver projeto</a>
+    </div>
+
+  </div>
+</section>
+
+    <!-- secao contato -->
+    <section id="contato">
+        <h2 class="titulo">Contato</h2>
+        <!-- form do contato com inputs de texto para nome e email, area de texto para a mensagem e botao de enviar -->
+        <form id="form" class="formulario">
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="email" id="email" placeholder="Email">
+        <textarea id="mensagem" placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
